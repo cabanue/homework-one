@@ -1,0 +1,53 @@
+.company {
+  margin: 0 auto;
+  text-align: center;
+  &__heading {
+    font-size: 80px;
+  }
+  &__bio {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+}
+
+.employees {
+  width: 75%;
+  margin: 0 auto;
+  &__heading {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  &__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    &__individual {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      align-items: center;
+      &__picture {
+        height: 300px;
+        width: 250px;
+        background-color: red;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: 20px;
+      }
+      &__picture--emp1 {
+        background-image: url(../images/emp-1.jpg);
+      }
+      &__picture--emp2 {
+        background-image: url(../images/emp-2.jpg);
+      }
+      &__picture--emp3 {
+        background-image: url(../images/emp-3.jpg);
+      }
+      &__name {
+        font-size: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.contact {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  //   background-color: green;
+  &__map {
+    background-image: url(../images/map.png);
+    height: 400px;
+    width: 40%;
+  }
+  &__form {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__input {
+      width: 80%;
+      height: 30px;
+      font-size: 20px;
+      padding-left: 10px;
+    }
+    &__ta {
+      font-size: 20px;
+      width: 80%;
+      padding-left: 10px;
+    }
+    &__but {
+      color: white;
+      font-size: 25px;
+
+      background-color: gray;
+      height: 65px;
+      width: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.location {
+  .stores {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__single {
+      width: 25%;
+      text-align: center;
+      &__name {
+        font-size: 40px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
